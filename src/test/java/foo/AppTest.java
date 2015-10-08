@@ -29,7 +29,7 @@ public class AppTest {
 		capability.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		capability.setCapability(MobileCapabilityType.PLATFORM_VERSION, "19");
 		capability.setCapability(MobileCapabilityType.DEVICE_NAME,
-				"HT489WM03504");
+				"0cbbdc0a032f9efa");
 		capability
 				.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
 

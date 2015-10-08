@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="CHDSEZ301299D" name="foo.AppTest" tests="1" failures="0" timestamp="6 Oct 2015 06:48:05 GMT" time="36.237" errors="0">
-  <testcase name="test1_Start" time="24.309" classname="foo.AppTest"/>
+<testsuite hostname="CHDSEZ301299D" name="foo.AppTest" tests="1" failures="0" timestamp="8 Oct 2015 07:30:58 GMT" time="40.352" errors="0">
+  <testcase name="test1_Start" time="6.139" classname="foo.AppTest"/>
 </testsuite>
