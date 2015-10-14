@@ -29,15 +29,58 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">40.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">64.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Surefire test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">foo.AppTest<td><a href="#m1"><b>test9_Logout</b>  </a></td><td class="numi">1</td><td class="numi">1472</td></tr>
 <tr><th colspan="4">Surefire test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">foo.AppTest<td><a href="#m1"><b>test1_Start</b>  </a></td><td class="numi">1</td><td class="numi">6139</td></tr>
+<tr class="passedodd"><td rowspan="4">foo.AppTest<td><a href="#m2"><b>test5_NavigateToHome</b>  </a></td><td class="numi">1</td><td class="numi">1292</td></tr><tr class="passedodd"><td><a href="#m3"><b>test2_Login</b>  </a></td><td class="numi">1</td><td class="numi">13925</td></tr><tr class="passedodd"><td><a href="#m4"><b>test3_NavigateToMenu</b>  </a></td><td class="numi">1</td><td class="numi">20875</td></tr><tr class="passedodd"><td><a href="#m5"><b>test1_Landing</b>  </a></td><td class="numi">1</td><td class="numi">930</td></tr>
 </table>
 <h1>Surefire test</h1>
-<a id="m1"></a><h2>foo.AppTest:test1_Start</h2>
+<a id="m1"></a><h2>foo.AppTest:test9_Logout</h2>
+<div style="padding-left:3em">
+<p>An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;CHDSEZ301299D&apos;, ip: &apos;10.152.225.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;
+*** Element info: {Using=id, value=android:id/action_bar_title}
+Session ID: dd10c091-a70f-4ebf-94d3-d8c359be6c3a
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\Users\dhiraj01\Downloads\smartdriver-android-1.6-SNAPSHOT[staging644].apk, javascriptEnabled=true, appActivity=.activity.WelcomeActivity, browserName=Android, networkConnectionEnabled=true, desired={app=C:\Users\dhiraj01\Downloads\smartdriver-android-1.6-SNAPSHOT[staging644].apk, platformName=Android, deviceName=HT489WM03504, appActivity=.activity.WelcomeActivity, appWaitActivity=.activity.WelcomeActivity, appPackage=com.tower.smartdriver}, locationContextEnabled=false, appPackage=com.tower.smartdriver, platformVersion=5.1.1, databaseEnabled=false, deviceName=0cbbdc0a032f9efa, platformName=Android, appWaitActivity=.activity.WelcomeActivity, webStorageEnabled=false, warnings={}, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:62)
+<br/>at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+<br/>at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:215)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+<br/>at foo.AppTest.test9_Logout(AppTest.java:268)
+<br/>30 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>foo.AppTest:test5_NavigateToHome</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>foo.AppTest:test2_Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>foo.AppTest:test3_NavigateToMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>foo.AppTest:test1_Landing</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

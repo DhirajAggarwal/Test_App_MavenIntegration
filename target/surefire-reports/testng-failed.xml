@@ -6,7 +6,7 @@
       <class name="foo.AppTest">
         <methods>
           <include name="setup"/>
-          <include name="test1_Start"/>
+          <include name="test9_Logout"/>
         </methods>
       </class>
     </classes>

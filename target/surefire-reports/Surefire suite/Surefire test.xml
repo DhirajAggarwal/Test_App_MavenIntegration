@@ -1,4 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="CHDSEZ301299D" name="foo.AppTest" tests="1" failures="0" timestamp="8 Oct 2015 07:30:58 GMT" time="40.352" errors="0">
-  <testcase name="test1_Start" time="6.139" classname="foo.AppTest"/>
+<testsuite hostname="CHDSEZ301299D" name="foo.AppTest" tests="5" failures="1" timestamp="14 Oct 2015 11:37:13 GMT" time="64.352" errors="0">
+  <testcase name="test1_Landing" time="0.93" classname="foo.AppTest"/>
+  <testcase name="test2_Login" time="13.925" classname="foo.AppTest"/>
+  <testcase name="test3_NavigateToMenu" time="20.875" classname="foo.AppTest"/>
+  <testcase name="test5_NavigateToHome" time="1.292" classname="foo.AppTest"/>
+  <testcase name="test9_Logout" time="1.472" classname="foo.AppTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.47.1&amp;apos;, revision: &amp;apos;unknown&amp;apos;, time: &amp;apos;2015-07-30 11:02:44&amp;apos;
+System info: host: &amp;apos;CHDSEZ301299D&amp;apos;, ip: &amp;apos;10.152.225.172&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_67&amp;apos;
+*** Element info: {Using=id, value=android:id/action_bar_title}
+Session ID: dd10c091-a70f-4ebf-94d3-d8c359be6c3a
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\Users\dhiraj01\Downloads\smartdriver-android-1.6-SNAPSHOT[staging644].apk, javascriptEnabled=true, appActivity=.activity.WelcomeActivity, browserName=Android, networkConnectionEnabled=true, desired={app=C:\Users\dhiraj01\Downloads\smartdriver-android-1.6-SNAPSHOT[staging644].apk, platformName=Android, deviceName=HT489WM03504, appActivity=.activity.WelcomeActivity, appWaitActivity=.activity.WelcomeActivity, appPackage=com.tower.smartdriver}, locationContextEnabled=false, appPackage=com.tower.smartdriver, platformVersion=5.1.1, databaseEnabled=false, deviceName=0cbbdc0a032f9efa, platformName=Android, appWaitActivity=.activity.WelcomeActivity, webStorageEnabled=false, warnings={}, takesScreenshot=true}]">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'CHDSEZ301299D', ip: '10.152.225.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=android:id/action_bar_title}
+Session ID: dd10c091-a70f-4ebf-94d3-d8c359be6c3a
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\Users\dhiraj01\Downloads\smartdriver-android-1.6-SNAPSHOT[staging644].apk, javascriptEnabled=true, appActivity=.activity.WelcomeActivity, browserName=Android, networkConnectionEnabled=true, desired={app=C:\Users\dhiraj01\Downloads\smartdriver-android-1.6-SNAPSHOT[staging644].apk, platformName=Android, deviceName=HT489WM03504, appActivity=.activity.WelcomeActivity, appWaitActivity=.activity.WelcomeActivity, appPackage=com.tower.smartdriver}, locationContextEnabled=false, appPackage=com.tower.smartdriver, platformVersion=5.1.1, databaseEnabled=false, deviceName=0cbbdc0a032f9efa, platformName=Android, appWaitActivity=.activity.WelcomeActivity, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at foo.AppTest.test9_Logout(AppTest.java:268)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
 </testsuite>
